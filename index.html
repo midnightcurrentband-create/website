@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Midnight Current</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">The Midnight Current</div>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <nav id="nav">
+    <a href="#listen">Listen</a>
+    <a href="#follow">Follow</a>
+    <a href="#videos">Videos</a>
+    <a href="#shows">Shows</a>
+    <a href="#booking">Booking</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="assets/band-photo.png" alt="Band Photo"/>
+  <h1>The Midnight Current</h1>
+</section>
+
+<section id="listen">
+  <h2>Listen</h2>
+  <div class="icons">
+    <a href="https://open.spotify.com/artist/3WUAcHyFZL1arqUZ4vkyvX?si=MPwUboFYQN270YFYawnwbw" target="_blank"><i class="fab fa-spotify"></i></a>
+    <a href="https://music.apple.com/us/artist/the-midnight-current/1889311165" target="_blank"><i class="fab fa-apple"></i></a>
+    <a href="https://themidnightcurrent.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a>
+  </div>
+</section>
+
+<section id="follow">
+  <h2>Follow</h2>
+  <div class="icons">
+    <a href="https://www.facebook.com/p/The-Midnight-Current-61577125750470/" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/themidnightcurrent/" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+</section>
+
+<section id="videos">
+  <h2>Videos</h2>
+  <a class="button" href="https://www.youtube.com/@TheMidnightCurrent" target="_blank">Watch on YouTube</a>
+</section>
+
+<section id="shows">
+  <h2>Shows</h2>
+  <script charset="utf-8" src="https://widgetv3.bandsintown.com/main.min.js"></script>
+  <a class="bit-widget-initializer"
+    data-artist-name="id_15652231"
+    data-app-id="ff1d3bad7e7f061838f01b32266d1d11">
+  </a>
+</section>
+
+<section id="booking">
+  <h2>Booking</h2>
+  <a class="button" href="assets/epk.pdf" target="_blank">View EPK</a>
+  <a class="button" href="assets/epk.pdf" download>Download EPK</a>
+  <p>midnightcurrentband@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 The Midnight Current</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
